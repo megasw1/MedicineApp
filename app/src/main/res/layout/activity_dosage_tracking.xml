@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+<EditText
+android:id="@+id/editTextMedicationName"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Medication Name" />
+
+<EditText
+android:id="@+id/editTextDose"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Dose" />
+
+<EditText
+android:id="@+id/editTextDate"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Date (YYYY-MM-DD)" />
+
+<Button
+android:id="@+id/btnSaveDose"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Save Dose"/>
+    </LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnMedicationReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medication Reminder" />
+
+    <Button
+        android:id="@+id/btnDosageTracking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dosage Tracking" />
+
+    <Button
+        android:id="@+id/btnMedicationRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medication Record" />
+
+    <Button
+        android:id="@+id/btnPharmacyLocator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pharmacy Locator" />
+
+    <Button
+        android:id="@+id/btnQRScanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QR Scanner" />
+</LinearLayout>
