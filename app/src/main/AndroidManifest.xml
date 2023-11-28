@@ -6,7 +6,8 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -17,12 +18,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Medicationapp"
         tools:targetApi="31">
+
         <activity
             android:name=".QRScannerActivity"
             android:exported="false" />
         <activity
             android:name=".PharmacyLocatorActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MedicationRecordActivity"
             android:exported="false" />
